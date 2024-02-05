@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HomeStyler.Pages.SignUpPage"
+             Title="SignUpPage">
+    <StackLayout BackgroundColor="Transparent">
+
+        <Grid>
+            <StackLayout WidthRequest="200" HorizontalOptions="FillAndExpand">
+                <Frame  BackgroundColor="Black" WidthRequest="400"  HeightRequest="250" Padding="0" Margin="0">
+                    <Image Source="homel.png" Aspect="AspectFill" Margin="0"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Padding="0" Margin="0,220,0,0" HorizontalOptions="FillAndExpand">
+                <Frame  BackgroundColor="White" HeightRequest="600" HasShadow="True" Padding="0" Margin="0">
+
+                    <StackLayout>
+
+
+                        <StackLayout Margin="10">
+                            <Label  Text="Create an Account" FontSize="Large" TextColor="Black"  HorizontalOptions="CenterAndExpand" FontFamily="DancingScript-Regular.ttf"  FontAttributes="Bold"/>
+
+                            <Label Text="Create an account to start doing more" Margin="30,20,0,0" HorizontalOptions="CenterAndExpand"></Label>
+                        </StackLayout>
+
+                        <StackLayout Padding="0" Margin="10,10,0,0">
+                            <Label Text="Nom Complet" TextColor="#333333" FontSize="Small" VerticalOptions="Center" />
+                            <Frame BackgroundColor="White" BorderColor="White" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="Transparent" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                        <Image Source="doctor.png" Aspect="AspectFill" Margin="9"/>
+                                    </Frame>
+                                    <Entry x:Name="MyEntryFullname" Placeholder="Tapez votre nom" WidthRequest="300" TextColor="Black" FontAttributes="None"  Margin="30,0,40,0"/>
+                                </StackLayout>
+                            </Frame>
+
+                            <Label Text="Email" TextColor="#333333" FontSize="Small" VerticalOptions="Center" />
+                            <Frame BackgroundColor="White" BorderColor="White" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="20">
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="Transparent" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="3">
+                                        <Image Source="login.png" Aspect="AspectFill" Margin="9"/>
+                                    </Frame>
+                                    <Entry x:Name="EmailEntry" Placeholder="Tapez votre Email" WidthRequest="300" TextColor="Black" FontAttributes="None"  Margin="30,0,40,0"/>
+                                </StackLayout>
+                            </Frame>
+
+                            <Label Text="Mot de passe" TextColor="#333333" FontSize="Small" VerticalOptions="Center" />
+                            <Frame BackgroundColor="White" BorderColor="White" Margin="0,15,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="Transparent" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                        <Image x:Name="TogglePasswordButton" Source="invisible.png" Aspect="AspectFill" Margin="8">
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="TogglePasswordButton_Clicked" />
+                                            </Image.GestureRecognizers>
+                                        </Image>
+                                    </Frame>
+                                    <Entry x:Name="MyEntryPassword"  Placeholder="Tapez votre mot de passe" WidthRequest="300" TextColor="Black" IsPassword="True" Margin="30,0,40,0"/>
+                                </StackLayout>
+                            </Frame>
+
+
+                            <Button Text="REGISTER" x:Name="MyButtonLogin" Margin="0,10,5,10" BackgroundColor="#674d3c" TextColor="White" CornerRadius="30" Clicked="MyButtonSignIn_Clicked" />
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                <Label Text="I have already an account ?" TextColor="Black" FontSize="Small"/>
+                                <Label x:Name="MyButtonSignIn" Text="Log In" TextColor="#674d3c" FontAttributes="Bold" FontSize="Small"  >
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="SignIn_Clicked" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+                            </StackLayout>
+                            
+
+
+                        </StackLayout>
+
+
+                    </StackLayout>
+
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>

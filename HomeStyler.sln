@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeStyler", "HomeStyler\HomeStyler.csproj", "{404780A4-C9CC-4366-9735-FD45745D0716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeStyle.Api", "HomeStyle.Api\HomeStyle.Api.csproj", "{6D736C43-DD5B-4C38-8C97-7D9FBE924F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeStyler.shared", "HomeStyler.shared\HomeStyler.shared.csproj", "{04D9BF99-9AA9-4804-ACD4-F0D2897B735C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{404780A4-C9CC-4366-9735-FD45745D0716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404780A4-C9CC-4366-9735-FD45745D0716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404780A4-C9CC-4366-9735-FD45745D0716}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{404780A4-C9CC-4366-9735-FD45745D0716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404780A4-C9CC-4366-9735-FD45745D0716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404780A4-C9CC-4366-9735-FD45745D0716}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6D736C43-DD5B-4C38-8C97-7D9FBE924F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D736C43-DD5B-4C38-8C97-7D9FBE924F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D736C43-DD5B-4C38-8C97-7D9FBE924F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D736C43-DD5B-4C38-8C97-7D9FBE924F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D9BF99-9AA9-4804-ACD4-F0D2897B735C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D9BF99-9AA9-4804-ACD4-F0D2897B735C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D9BF99-9AA9-4804-ACD4-F0D2897B735C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D9BF99-9AA9-4804-ACD4-F0D2897B735C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE5A1256-5072-4DAE-8C3F-DBCD4E400484}
+	EndGlobalSection
+EndGlobal
