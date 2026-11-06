@@ -1,6 +1,6 @@
 ## Technologies
-![.NET](https://img.shields.io/badge/JavaScript-F7DF1E?logo=.net&logoColor=black)
-![C#](https://img.shields.io/badge/Java-ED8B00?logo=c#&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-F7DF1E?logo=.net&logoColor=black)
+![C#](https://img.shields.io/badge/C#-ED8B00?logo=C#&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![XMARIN](https://img.shields.io/badge/Angular-DD0031?logo=xamarin&logoColor=white)
