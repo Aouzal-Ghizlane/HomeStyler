@@ -7,6 +7,6 @@
 
 Uploading HomeStyler demo :
 
-https://github.com/user-attachments/assets/a51416f8-3f02-4e26-a821-8d5911660fb4
+[https://github.com/user-attachments/assets/a51416f8-3f02-4e26-a821-8d5911660fb4](https://github.com/user-attachments/assets/9311e9c1-088c-4581-bc9f-7fb0e246f92d)
 
 
